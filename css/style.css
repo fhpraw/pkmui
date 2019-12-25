@@ -1,0 +1,91 @@
+/* common semantic styles
+----------------------------------------------------------------*/
+body {
+  background-color: #222;
+  color: #999;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* heading */
+h1,
+h2,
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* link */
+a {
+  color: #ffa500;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* form input */
+input[type=text],
+input[type=password] {
+  width: 250px;
+  height: 35px;
+  padding-left: 10px;
+  border: none;
+  background-color: #000;
+  color: #ccc;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+input[type=submit],
+button {
+  width: 125px;
+  height: 35px;
+  border: none;
+  background-color: #ffaf00; /* orange color */
+  color: #222;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+input[type=submit]:active,
+button:active {
+  background-color: #ffa500;
+  transform: translateY(2px);
+}
+
+/* accessbility */
+*:focus {
+  outline: 1px solid #ffaf00;
+}
+
+/* common classes styles
+----------------------------------------------------------------*/
+.container {
+  min-width: 1024px;
+  min-height: 660px;
+}
+
+.flex-center {
+  /* this class used for centering block */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* custom classes styles
+----------------------------------------------------------------*/
+.login-form input {
+  display: block;
+  width: 300px;
+  margin-bottom: 5px;
+}
+
+.login-form button {
+  width: 300px;
+}
+
+.marked {
+  text-transform: uppercase;
+  color: #ffa500;
+  font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,13 @@
+.border {
+  border: 2px dashed #999;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.bigger-box {
+  width: 800px;
+  height: 600px;
+}
