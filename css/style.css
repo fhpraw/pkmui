@@ -25,7 +25,9 @@ a:hover {
 
 /* form input */
 input[type=text],
-input[type=password] {
+input[type=password],
+input[type=email],
+input[type=tel] {
   width: 250px;
   height: 35px;
   padding-left: 10px;
@@ -74,13 +76,19 @@ button:active {
 
 /* custom classes styles
 ----------------------------------------------------------------*/
-.login-form input {
+#reg-form {
+  display: none;
+}
+
+.login-form input,
+.reg-form input {
   display: block;
   width: 300px;
   margin-bottom: 5px;
 }
 
-.login-form button {
+.login-form button,
+.reg-form button {
   width: 300px;
 }
 
